@@ -1,0 +1,57 @@
+✅ GENEL GIT KOMUTLARI VE ANLAMLARI
+
+git init
+→ Yeni bir Git deposu başlatır. Proje klasörünü Git ile takip etmeye başlar.
+
+git clone <repo_url>
+→ Uzaktaki bir Git deposunu bilgisayara kopyalar.
+
+git status
+→ Çalışma alanının durumunu gösterir. Değişiklikleri listeler.
+
+git add <dosya>
+→ Belirtilen dosyayı sahneye alır.
+
+git add .
+→ Tüm değişiklikleri sahneye alır.
+
+git commit -m "mesaj"
+→ Değişiklikleri yerel olarak kaydeder. Mesaj, yapılan değişikliği açıklar.
+
+git log
+→ Yapılan commit’leri listeler.
+
+git diff
+→ Değişiklikleri satır satır gösterir.
+
+git branch
+→ Mevcut dalları listeler.
+
+git branch <isim>
+→ Yeni bir dal (branch) oluşturur.
+
+git checkout <dal_ismi>
+→ Belirtilen dala geçiş yapar.
+
+git merge <dal>
+→ Belirtilen dalı şu anki dala birleştirir.
+
+git pull
+→ Uzaktaki depodan en son değişiklikleri indirir ve birleştirir.
+
+git push
+→ Yerel commit’leri uzak depoya gönderir.
+
+🌐 UZAK DEPO (REMOTE) İŞLEMLERİ
+
+git remote add origin <url>
+→ Uzak repo adresini tanımlar.
+
+git push -u origin main
+→ Yerel main dalını uzak origin deposuna gönderir ve takip etmeye başlar.
+
+git fetch
+→ Uzaktaki değişiklikleri indirir ama birleştirmez.
+
+git remote -v
+→ Tanımlı uzak depoları listeler.

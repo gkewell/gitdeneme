@@ -1,0 +1,12 @@
+git log : commitler ve kimliğini
+git diff : değişikiklikler 
+git diff --staged : yapıln değişiklikleri görme
+git restore : değişikliği geri alma 
+git reset :takipten çıkarma
+git remote add myurl ..... : her seferinde urlyi kopyalamamak için
+
+git push -u : yollama
+
+git fetch : başka biryerden repo ya ekleneni getiriyor
+git diff master..myurl/master: ekleneni gösteriyor
+git merge : eklenen dosyayı getiriyor
